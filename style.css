@@ -27,9 +27,9 @@ nav{
 
 
 .card{
-    width: 470px;
+    width: 50%;
     display: flex;
-    margin: 40px 130px 
+    margin: 20px auto; 
 }
 
 img{
