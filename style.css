@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif; 
+}
+
+nav{
+    background-color: #F55A5A;
+    height: 70px;
+    text-align: center;
+}
+
+.nav-bar>h3{
+    margin: 0;
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+
+.card{
+    width: 470px;
+    display: flex;
+    margin: 40px 130px 
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    height: 168px;
+    width: 126px;
+}
+
+.card--location--div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card--info>h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
+.card--location{
+    margin-right: 10px;
+}
+
+.card--text{
+    font-size: 12px;
+    margin-left: 25px;
+}
